@@ -12,7 +12,6 @@ words = line.split()
 for i, word in enumerate(words):
     print(i, word[:10])
 
-
 # задача 5
 my_list = [7, 5, 3, 3, 2]
 request = input('Введите число: ')
