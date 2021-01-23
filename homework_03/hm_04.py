@@ -11,10 +11,10 @@ def my_func(a, b):
 
 def my_func_(a, b):
     x = a
-    for i in range(abs(b + 1)):
+    for i in range(abs(b) - 1):
         a *= x
     return 1 / a
 
 
 print(my_func(2, -3))
-print(my_func_(int(input('Enter a valid integer: ')), int(input('Enter a negative integer: '))))
+print(my_func_(float(input('Enter a valid integer: ')), int(input('Enter a negative integer: '))))
